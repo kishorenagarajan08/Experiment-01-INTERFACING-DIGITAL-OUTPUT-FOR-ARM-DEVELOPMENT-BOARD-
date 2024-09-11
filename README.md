@@ -78,16 +78,52 @@ The main features of LPC2148 include the following.
 
 
 
-## STM 32 CUBE PROGRAM :
+## Programs for Arithmetic operations :
+### Addition of 8 bit ALP
+```
+start:
+MOV AL,04
+MOV BL,03
+ADD AL,BL
+HLT
+```
+### Output
+![image](https://github.com/user-attachments/assets/7f574aa0-6f41-4b1f-9dc9-6f9de9596e16)
+
+### Subtraction of 8 bit numbers ALP
+```
+start:
+MOV AL,05
+MOV BL,03
+SUB AL,BL
+HLT
+```
+### Output  :
+![image](https://github.com/user-attachments/assets/3cf24f99-4cdd-4ffe-9063-d3f98a9114f0)
+
+### Multiplication alp
+```
+ start:
+MOV AL,03
+MOV BL,03
+MUL BL
+HLT
+```
+### Output
+![image](https://github.com/user-attachments/assets/1bd4d9e7-6ddb-4080-8e87-76a1044f35d8)
 
 
+### Division alp
+```
+start:
+MOV AL,05
+MOV BL,03
+DIV BL
+HLT
+```
+### Output
+![image](https://github.com/user-attachments/assets/86942d75-99ce-411b-97c6-b2fcb8849884)
 
-## Output  :
- 
- 
- 
- 
+
 ## Result :
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
-
-
